@@ -1,0 +1,35 @@
+{
+    "resolution" : "480x320",
+    "fullScreen" : false,
+    "url": "http://homeassistant.local:8123/api",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhOGU0MGNlMTRlYzY0NTQ2ODM0NjU3ODEwYmFkZjU2YSIsImlhdCI6MTY4NzA1OTE5MSwiZXhwIjoyMDAyNDE5MTkxfQ.lXG35MwdgPW3Z3j0saG7_HxBiDHuQRMdE25WwzvJi84",
+    "buttons": [
+        {
+            "name": "Workshop",
+            "light_entities": [
+                "light.signify_netherlands_b_v_lcl001_huelight"
+            ]
+        },
+        {
+            "name": "Garage",
+            "light_entities": [
+                "light.light_left_2",
+                "light.light_right"
+            ]
+        },
+        {
+
+            "name": "Basement",
+            "light_entities": [
+                "switch.basement"
+            ]
+        },
+        {
+            "name": "Mechanic Room",
+            "light_entities": [
+                "switch.mechanical_room"
+            ]
+        }
+
+    ]
+}
